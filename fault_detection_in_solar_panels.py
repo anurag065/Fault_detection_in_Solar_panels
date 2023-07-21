@@ -12,7 +12,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Load the thermal image
-img = cv2.imread('/content/s2.jpg')
+img = cv2.imread('/content/s2.jpg') #path of the image of panel
 
 # Define the color range to locate
 lower_color_range = (150, 200, 200)  # Lower bound of the color range in RGB format
